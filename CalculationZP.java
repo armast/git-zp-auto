@@ -3,7 +3,7 @@ import javax.swing.JFrame;
 
 public class CalculationZP {
 	public static void main(String[] args){
-		Zp z = new Zp("Расчет заработной платы за месяц");
+		Zp z = new Zp("Р Р°СЃС‡РµС‚ Р·Р°СЂР°Р±РѕС‚РЅРѕР№ РїР»Р°С‚С‹ Р·Р° РјРµСЃСЏС†");
 		z.setVisible(true);
 		z.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		z.setSize(350, 350);
