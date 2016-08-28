@@ -15,18 +15,18 @@ public class Zp extends JFrame {
 	public Zp(String s){
 		super (s);
 		setLayout(new FlowLayout());
-		b1 = new JButton("Рассчитать");
-		b2 = new JButton("Очистить");
-		l0 = new JLabel("Себестоимость запасных частей, руб");
-		l1 = new JLabel("Проданные запасные части, руб.");
-		l2 = new JLabel("Проданные нормо-часы, руб.");
-		l3 = new JLabel("Оклад");
-		l4 = new JLabel("Кол-во отработанных дней");
-		l5 = new JLabel("Бонусы");
-		l6 = new JLabel("K.уд");
-		l7 = new JLabel("К.ип");
+		b1 = new JButton("Р Р°СЃСЃС‡РёС‚Р°С‚СЊ");
+		b2 = new JButton("РћС‡РёСЃС‚РёС‚СЊ");
+		l0 = new JLabel("РЎРµР±РµСЃС‚РѕРёРјРѕСЃС‚СЊ Р·Р°РїР°СЃРЅС‹С… С‡Р°СЃС‚РµР№, СЂСѓР±");
+		l1 = new JLabel("РџСЂРѕРґР°РЅРЅС‹Рµ Р·Р°РїР°СЃРЅС‹Рµ С‡Р°СЃС‚Рё, СЂСѓР±.");
+		l2 = new JLabel("РџСЂРѕРґР°РЅРЅС‹Рµ РЅРѕСЂРјРѕ-С‡Р°СЃС‹, СЂСѓР±.");
+		l3 = new JLabel("РћРєР»Р°Рґ");
+		l4 = new JLabel("РљРѕР»-РІРѕ РѕС‚СЂР°Р±РѕС‚Р°РЅРЅС‹С… РґРЅРµР№");
+		l5 = new JLabel("Р‘РѕРЅСѓСЃС‹");
+		l6 = new JLabel("K.СѓРґ");
+		l7 = new JLabel("Рљ.РёРї");
 		l8 = new JLabel("");
-		l9 = new JLabel("Заполните форму :            ");
+		l9 = new JLabel("Р—Р°РїРѕР»РЅРёС‚Рµ С„РѕСЂРјСѓ :            ");
 		t0 = new JTextField(8);
 		t1 = new JTextField(10);
 		t2 = new JTextField(12);
@@ -78,7 +78,7 @@ public class Zp extends JFrame {
 					v = o*17;
 					r = (s+t+u+v)*87/100;
 					
-					a = "Ваша заработная плата составляет: " + r +" рублей.";
+					a = "Р’Р°С€Р° Р·Р°СЂР°Р±РѕС‚РЅР°СЏ РїР»Р°С‚Р° СЃРѕСЃС‚Р°РІР»СЏРµС‚: " + r +" СЂСѓР±Р»РµР№.";
 					l8.setText(a);
 				}
 				if(e.getSource()==b2){
@@ -93,7 +93,7 @@ public class Zp extends JFrame {
 					l8.setText("");
 				}
 			}catch (Exception ex){
-				JOptionPane.showMessageDialog(null, "Введите в поле число !");
+				JOptionPane.showMessageDialog(null, "Р’РІРµРґРёС‚Рµ РІ РїРѕР»Рµ С‡РёСЃР»Рѕ !");
 				
 			}		
 		}
