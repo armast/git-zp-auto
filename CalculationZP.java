@@ -1,6 +1,7 @@
 package ZarplataA;
 import javax.swing.JFrame;
 
+// Создаем новый класс и задаем отображение
 public class CalculationZP {
 	public static void main(String[] args){
 		Zp z = new Zp("Расчет заработной платы за месяц");
