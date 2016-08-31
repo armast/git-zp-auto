@@ -4,9 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-//Создаем объект и задаем компоненты программы 
-
 public class Zp extends JFrame {
+	//Объявляем компоненты программы 
 	JButton b1, b2;
 	JLabel l0,l1, l2, l3, l4, l5, l6, l7, l8, l9;
 	JTextField t0, t1, t2, t3, t4, t5, t6, t7;
