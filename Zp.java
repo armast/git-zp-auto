@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+//Создаем объект и задаем компоненты программы 
+
 public class Zp extends JFrame {
 	JButton b1, b2;
 	JLabel l0,l1, l2, l3, l4, l5, l6, l7, l8, l9;
@@ -58,6 +60,8 @@ public class Zp extends JFrame {
 		b1.addActionListener(handler);
 		b2.addActionListener(handler);
 	}
+	
+	// Создаем метод пересчета полученных данных
 	
 	public class eHandler implements ActionListener{
 		public void actionPerformed(ActionEvent e) {
